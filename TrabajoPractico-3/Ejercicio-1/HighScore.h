@@ -1,6 +1,6 @@
 #include <list>
 #include <iostream>
-namespace hs {
+namespace hsc {
 	using namespace std;
 	struct Puntaje {
 		int _points;

@@ -1,5 +1,5 @@
 #include "HighScore.h"
-using namespace hs;
+using namespace hsc;
 
 void HighScore::maxScore(int &_points, string &_name)
 {
