@@ -12,8 +12,8 @@ namespace hsc {
 	class HighScore {
 		list<Puntaje>* _Scores;
 	public:
-		HighScore() {}
-		~HighScore() {}
+		HighScore() { _Scores = new list<Puntaje>(); }
+		~HighScore() { delete _Scores; }
 		void maxScore(int &_points, string &_name);
 		void minScore(int &_points, string &_name);
 		bool addScore(int _points, string _name);
